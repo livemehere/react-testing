@@ -1,6 +1,3 @@
-# React Testing Practice
-
-```tsx
 import React from "react";
 import { fireEvent, render, screen } from "@testing-library/react";
 import LoginForm from "../index";
@@ -55,5 +52,3 @@ describe("LoginForm Component", () => {
     expect(pwInput).toHaveValue("");
   });
 });
-
-```
